@@ -1,0 +1,22 @@
+{
+    "name": "atom-github-issues",
+    "main": "./lib/atom-github-issues",
+    "version": "0.0.0",
+    "description": "Manage Github Issues from Atom editor",
+    "keywords": [
+        "github",
+        "issues",
+        "atom"
+    ],
+    "repository": "https://github.com/stevenkaspar/atom-github-issues",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "marked": "^0.3.5",
+        "react": "^15.2.1",
+        "react-dom": "^15.2.1",
+        "react-tether": "^0.5.2"
+    }
+}

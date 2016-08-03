@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+        "atom-workspace": [
+            {
+                "label": "Github Issues",
+                "command": "atom-github-issues:open"
+            }
+        ]
+    }
+}

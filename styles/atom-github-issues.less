@@ -1,0 +1,92 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+// @import "ui-variables";
+
+.atom-github-issues {
+
+    box-sizing: border-box;
+    padding: 8px;
+    overflow-y: scroll;
+
+    .cursor-default { cursor: default; }
+
+    img{ max-width: 100%; }
+    textarea {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .github-issue-container {
+        padding: 8px 0px;
+        border-bottom: 1px solid #ddd;
+        > div {
+            .github-issue-title {
+                display: inline-block;
+            }
+            > span {
+                margin-left: 4px;
+                display: inline-block;
+            }
+        }
+        .github-assignee-square {
+            @regular-dim: 30px;
+            height: @regular-dim;
+            width: @regular-dim;
+            display: inline-block;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+            margin-right: 2px;
+            position: relative;
+            // 0 assignees
+            span.icon {
+                position: absolute;
+                top: 50%;
+                transform: translate(-20%, -50%);
+                left: 50%;
+            }
+            // 2 assignees
+            .assignee-2-1 {
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .label {
+            margin: 0 4px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+
+            &:first-child { margin-left: 0; }
+            &.off {
+                opacity: .3;
+                border-bottom-color: transparent !important;
+            }
+            &.off:hover,
+            &:hover {
+                opacity: .6;
+            }
+        }
+        .github-comment-container {
+            padding-left: 10px;
+            img.avatar {
+                width: 30px;
+                border-radius: 4px;
+                margin-right: 8px;
+            }
+            .github-comment-body {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+.tether-element {
+    background: white;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px #666;
+}
