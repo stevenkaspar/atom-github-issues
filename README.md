@@ -2,9 +2,9 @@
 
 Update Issues from Github in your Atom workspace
 
-![Screenshot](./assets/images/atom-github-issues-open-issue.png)
+![Screenshot](https://raw.githubusercontent.com/stevenkaspar/atom-github-issues/master/assets/images/atom-github-issues-open-issue.png)
 
-![Context Menu](./assets/images/atom-github-issues-context-menu.png)
+![Context Menu](https://raw.githubusercontent.com/stevenkaspar/atom-github-issues/master/assets/images/atom-github-issues-context-menu.png)
 
 
 View **Private** repositories by adding your Github Access Token to your git config
