@@ -2,6 +2,8 @@
 
 Update Issues from Github in your Atom workspace
 
+![Markdown Preview](https://raw.githubusercontent.com/stevenkaspar/atom-github-issues/master/assets/images/markdown-preview.gif)
+
 ![Screenshot](https://raw.githubusercontent.com/stevenkaspar/atom-github-issues/master/assets/images/atom-github-issues-open-issue.png)
 
 ![Context Menu](https://raw.githubusercontent.com/stevenkaspar/atom-github-issues/master/assets/images/atom-github-issues-context-menu.png)
