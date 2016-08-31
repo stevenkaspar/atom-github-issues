@@ -1,7 +1,7 @@
 {
   "name": "atom-github-issues",
   "main": "./lib/atom-github-issues",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Manage Github Issues from Atom workspace",
   "keywords": [
     "github",
